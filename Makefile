@@ -1,7 +1,7 @@
 run:
-	$(CXX) main.cpp -o main -lraylib
+	$(CXX) main.cpp -o main -lraylib -I./include/
 
-generate:
+gen:
 	bear -- make
 
 clean:
